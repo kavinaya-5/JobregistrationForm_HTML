@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Details Form</title>
+    </head>
+    <body>
+        <center>
+            <h2> Job Application Form </h2>
+            <h4>  Please Provide Accurate Information</h4>
+           
+            <form>
+                <table>
+                    <tr>
+                        <td> Salutation: </td> <td> <select name="Salutation"> 
+                            <option>--- None ---</option>
+                            <option> Mr </option>
+                            <option> Ms </option>
+                            <option>
+                             Mrs
+                            </option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Name:</label> </td><td><input type="text" placeholder="Enter Your Full Name" ></td>
+                    </tr>
+                   <tr>
+                        <td>
+                            <label> DOB:</label> </td> <td><input type="date" placeholder="Select The Date">
+                        </td>
+                    </tr>
+                     <tr>
+                        <td><label>Gender:</label></td> <td> <label><input type="radio" name="gender"  value ="Male"> Male</label><label> <input type="radio" name="gender" value="Female">Female</label></td>  
+                            
+                       
+                       
+                    </tr>
+                    <tr>
+                        <td><label> Email:</label></td> <td> <input type="email" placeholder=" Enter Your Email Addres">
+                    </tr>
+                    <tr>
+                        <td><label> Phone Number:</label></td> <td> <input type="number" placeholder="Enter Your Phone Number">
+                    </tr>
+                    <tr>
+                        <td><label> Nationality:</label></td> <td> <input type="text" placeholder="Enter Your Nationality"></td>
+                    </tr>
+                    <tr>
+  <td><label>Address:</label></td>
+  <td>
+    <textarea name="address" rows="4" cols="30" placeholder="Enter Your Full Address" required></textarea>
+  </td>
+</tr>
+
+                    <tr>
+                        <td> <label> City:</label></td> <td> <input type="text" placeholder="Enter your City"></td>
+                    </tr>
+                    <tr>
+                        <td> <label> District:</label></td><td><input type="text" placeholder="Enter Your District"></td>
+                    </tr>
+                     <tr>
+                        <td> <label> State:</label></td><td><input type="text" placeholder="Enter Your State"></td>
+                    </tr>
+                   
+                    <tr>
+                        
+                            <label><td> Highest  Qualification:</td></label> <td> <select name="Qualification" >
+                                <option>---NONE--</option>
+                                <option>B.E</option>
+                                <option>BSC</option>
+                                <option>B.TECH</option>
+                                <option>B.Arch</option>
+                                <option>DIPLOMO</option>
+                            </select></td>
+                       
+                    </tr>
+                    <tr>
+                        <td><label>College Name:</label></td> <td><input type="text" placeholder="Enter Your College Name">
+                    </tr>
+                    <tr>
+                        <td><label> CGPA:</label></td> <td><label><input type="text" placeholder="Enter Your CGPA"></label></td>
+                    </tr>
+                    <tr>
+                        <td><label> Secondary Percentage:</label></td> <td><input type="number" placeholder="Enter Your Percentage"></td>
+                    </tr>
+                    <tr>
+                        <td><label>  Higher Secondary Percentage:</label></td> <td><input type="number" placeholder="Enter Your Percentage"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Position Applies For:</label></td> <td><label><select name="Position">
+                            <option>--None--</option>
+                            <option>Software Developer</option>
+                            <option>Frontend Developer</option>
+                            <option> Data Analyst</option>
+                            <option> Digital Marketing</option>
+                            <option> Java Developer</option>
+                            <option> Devops Developer</option>
+                        </select></label></td>
+                    </tr>
+                    <tr> <td> Prefered Location:</td> <td><label><input type="text" placeholder="Enter Your Prefered Location"></label></td></tr>
+                    <tr> <td><label>Technical Skills:</label></td> <td><label><input type="text" placeholder="Enter Your Skills"></label></td></tr>
+                    <tr><td><label>SoftSkills:</label></td><td><label><input type="text" placeholder="Enter Your Soft Skills"></label></td></tr>
+                     <tr><td><label>LinkedIn URL:</label></td> <td><label><input type="url" placeholder="Enter Your url"></label></td></tr>
+                    <tr><td><label> Github Profile Link:</label></td> <td><label><input type="url" placeholder="enter your url here"></label></td></tr>
+                    <tr><td><label>Resume Upload</label></td></tr> <br> <td><label><input type="file" name ="resume"></label></td>
+                   
+                    
+                </table>
+            </form>
+            <center><label><input type="checkbox" ><strong>  I Declare that the information provided is true to the best of my knowledge</strong></label></center>
+            <br>
+            <tr>
+  <td colspan="2" align="center">
+    <input type="submit" value="Submit Application">
+    <input type="reset" value="Clear Form">
+  </td>
+</tr>
+
+            
+       </center>
+    </body>
+</html>
