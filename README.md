@@ -33,7 +33,7 @@ A simple, beginner-friendly HTML project that collects complete job application 
 
 ---
 
-## 🚀 Future Improvements (Optional)
+## 🚀 Future Improvements 
 
 - Add JavaScript for client-side validation
 - Style the form using CSS
